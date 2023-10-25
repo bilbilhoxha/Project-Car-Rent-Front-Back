@@ -48,7 +48,7 @@ public class ProductController {
         Product updatedProduct = productRepository.save(product);
         return ResponseEntity.ok(updatedProduct);
     }
-
+//test
     @DeleteMapping("/{id}")
     public ResponseEntity<Map<String, Boolean>> deleteProduct(@PathVariable Long id) {
         Product product = productRepository.findById(id)
