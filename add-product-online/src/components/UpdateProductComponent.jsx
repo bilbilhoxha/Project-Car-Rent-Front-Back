@@ -36,8 +36,12 @@ class UpdateProductComponent extends Component {
             description: this.state.description,
             price: this.state.price,
         };
-        
-        ProductService.updateProduct(product, this.state.id).then((res) => {
+
+        // Ensure that this.props.match.params.id contains the correct product ID
+        // You may want to log this.props.match.params.id to check its value
+        const productId = this.state.id;
+
+        ProductService.updateProduct(productId, product).then((res) => {
             this.props.history.push('/products');
         });
     }

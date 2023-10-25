@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProductService from '../services/ProductService';
+import ProductService from '../../services/ProductService';
 
 class ListProductComponent extends Component {
     constructor(props) {
