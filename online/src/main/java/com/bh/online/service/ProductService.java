@@ -3,7 +3,7 @@ package com.bh.online.service;
 
 import com.bh.online.dto.ProductDto;
 import com.bh.online.exception.ProductNotFoundException;
-import com.bh.online.model.Product;
+import com.bh.online.entity.Product;
 import com.bh.online.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
