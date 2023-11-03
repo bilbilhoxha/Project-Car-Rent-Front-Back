@@ -2,6 +2,10 @@
   <configuration default="false" name="MainApp" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="EMAIL" value="xhejsihoxha67@gmail.com" />
+      <env name="PASSWORD" value="Burreli1234@!" />
+    </envs>
     <option name="MAIN_CLASS_NAME" value="com.bh.online.MainApp" />
     <module name="online-store" />
     <extension name="coverage">
