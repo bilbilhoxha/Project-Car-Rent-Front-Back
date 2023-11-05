@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './HomeProductComponent.css';
-import productImage1 from '../images/product_1.png'; // Import your product images
-import productImage2 from '../images/product_2.png'; // Import additional images as needed
-import productImage3 from '../images/product_3.png'; // Import additional images as needed
+//import productImage1 from '../images/product_1.png'; // Import your product images
+//import productImage2 from '../images/product_2.png'; // Import additional images as needed
+//import productImage3 from '../images/product_3.png'; // Import additional images as needed
 
 const HomeProductComponent = () => {
   const [currentImage, setCurrentImage] = useState(1);

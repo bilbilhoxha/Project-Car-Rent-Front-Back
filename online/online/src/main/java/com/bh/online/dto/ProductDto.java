@@ -1,6 +1,7 @@
 package com.bh.online.dto;
 
 
+
 public class ProductDto {
     private Long id;
     private String productName;

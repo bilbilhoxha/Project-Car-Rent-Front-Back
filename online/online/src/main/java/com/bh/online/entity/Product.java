@@ -1,4 +1,4 @@
-package com.bh.online.model;
+package com.bh.online.entity;
 
 import jakarta.persistence.*;
 

@@ -1,0 +1,56 @@
+/* home.css */
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #c36363;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* You can add more specific styling for your product items within .product-list */
+  
+  /* header.css */
+
+/* Style the social media icons */
+.social-icons {
+  font-size: 24px;
+}
+
+.social-icons a {
+  margin-right: 10px; /* Add spacing between icons */
+  text-decoration: none;
+  color: #333; /* Icon color */
+}
+
+.social-icons a:hover {
+  color: #007BFF; /* Change color on hover */
+}

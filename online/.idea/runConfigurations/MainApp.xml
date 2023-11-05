@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MainApp" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="EMAIL" value="b.hoxha@webs-esolutions.com" />
+      <env name="PASSWORD" value="Roshniku12345@!" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="com.bh.online.MainApp" />
+    <module name="online-store" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.bh.online.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
