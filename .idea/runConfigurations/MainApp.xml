@@ -3,8 +3,8 @@
     <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <envs>
-      <env name="EMAIL" value="xhejsihoxha67@gmail.com" />
-      <env name="PASSWORD" value="Burreli1234@!" />
+      <env name="EMAIL" value="b.hoxha@webs-esolutions.com" />
+      <env name="PASSWORD" value="Roshniku12345@!" />
     </envs>
     <option name="MAIN_CLASS_NAME" value="com.bh.online.MainApp" />
     <module name="online-store" />

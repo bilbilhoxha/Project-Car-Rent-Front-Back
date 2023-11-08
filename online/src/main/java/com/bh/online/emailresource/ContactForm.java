@@ -7,7 +7,7 @@ package com.bh.online.emailresource;
 public class ContactForm {
     private String name;
     private String email;
-
+    private String message;
     public ContactForm(String name, String email, String message) {
         this.name = name;
         this.email = email;
@@ -38,7 +38,7 @@ public class ContactForm {
         this.message = message;
     }
 
-    private String message;
+
 
     // Getters and setters for the above fields
 }
